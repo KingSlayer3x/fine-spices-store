@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Facebook, MessageCircle, MapPin, Phone } from "lucide-react";
+import { Facebook, MessageCircle, MapPin, Phone, ArrowUp as ArrowUpIcon } from "lucide-react";
 import { useLanguage } from "@/lib/language-context";
 import { motion } from "framer-motion";
 import { SpicePatternBackground } from "./spice-icons";
@@ -188,6 +188,16 @@ export function Footer() {
           </motion.div>
         </div>
       </div>
-    </footer>
+    <motion.div
+  className="fixed bottom-8 right-8 cursor-pointer"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  whileHover={{ y: -4 }}
+>
+  <a href="#top" aria-label="Back to top">
+    <ArrowUpIcon className="h-6 w-6 text-white" />
+  </a>
+</motion.div>
+</footer>
   );
 }
