@@ -35,7 +35,7 @@ export function Hero() {
         transition={{ duration: 1.5, ease: "easeOut" }}
       >
         <Image
-          src="/images/hero-banner.jpg"
+          src="./images/hero-banner.jpg"
           alt="Artisan spice workshop"
           fill
           className="object-cover"

@@ -42,7 +42,7 @@ export function About() {
           >
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
               <Image
-                src="/images/hero-spices.jpg"
+                src="./images/hero-spices.jpg"
                 alt="Artisan spice collection"
                 fill
                 className="object-cover"
