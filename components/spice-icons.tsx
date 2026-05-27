@@ -140,7 +140,7 @@ export function SpicePatternBackground() {
       <div 
         className="absolute inset-0 opacity-20"
         style={{
-          backgroundImage: `url("/images/spice-pattern.jpg")`,
+          backgroundImage: `url("./images/spice-pattern.jpg")`,
           backgroundSize: '400px 400px',
           backgroundRepeat: 'repeat',
         }} 
